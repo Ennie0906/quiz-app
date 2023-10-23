@@ -1,20 +1,20 @@
 const questions = [{
         question: "What color is the sky?",
-        options: [{
+        answers: [{
                 text: "Blue",
-
+                correct: true
             },
             {
                 text: "Green",
-
+                correct: false
             },
             {
                 text: "Red",
-
+                correct: false
             },
             {
                 text: "Yellow",
-
+                correct: false
             },
         ],
         correct: "Blue"
@@ -105,7 +105,7 @@ const questions = [{
         ]
     },
     {
-        question: "If Richey was 60 years old and Enes was 5 who would win a MMA Cage Fight?",
+        question: "If Richey was 60 years old and Enes was 5 years old who would win a MMA Cage Fight?",
         answers: [{
                 text: "Enes",
                 correct: true
@@ -126,3 +126,7 @@ const questions = [{
 
     }
 ];
+
+const questionElement = document.getElementById('questions');
+const answerButton = document.getElementById('answer-buttons');
+const nextButton = document.getElementById('next-btn')
