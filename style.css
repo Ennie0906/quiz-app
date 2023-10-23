@@ -1,0 +1,46 @@
+*{
+    font-family:'Oswald', sans-serif;;
+}
+
+body{
+    background-color: #e07b16;
+}
+
+.divider{
+height: 6px;
+}
+
+.bg-color{
+    background-color: #fff;
+}
+
+.bg-area{
+     border-radius: 10px;
+
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+    color: #222;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background: #222;
+    color: #fff;
+}
+
+#next-btn{
+    background: #e07b16;
+    padding: 10px;
+    color: #fff;
+    width: 50%;
+    border: 0;
+    display: none;
+    margin: 20px auto 0;
+}
