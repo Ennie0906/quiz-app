@@ -30,9 +30,13 @@ height: 6px;
     border-radius: 4px;
 }
 
-.btn:hover{
+.btn:hover:not([disabled]){
     background: #222;
     color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
 }
 
 #next-btn{
@@ -43,4 +47,12 @@ height: 6px;
     border: 0;
     display: none;
     margin: 20px auto 0;
+}
+
+.correct{
+    background: pink;
+}
+
+.incorrect{
+    background: greenyellow;
 }
